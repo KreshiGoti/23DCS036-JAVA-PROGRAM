@@ -22,3 +22,12 @@ public class Pra28 {
                     charCount++; 
                 } 
             }
+      System.out.println("Character '" + targetChar + "' appears " + charCount + " times in 
+" + fileName); 
+ 
+        } catch (IOException e)  
+        { 
+            System.err.println("Error reading file: " + fileName); 
+        } 
+    } 
+} 
